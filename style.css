@@ -1,0 +1,43 @@
+/* ===== Header / top navigation ===== */
+header {
+  background: #222;
+  color: white;
+  padding: 18px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+/* ===== River soul +  Home, about,...===== */
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+/* ===== River soul ===== */
+
+.logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.9rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+}
+/* ===== Home, about,... ===== */
+/* The container holding the menu links */
+.nav-links {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+/* The menu link style itself */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+}
